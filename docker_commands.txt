@@ -1,0 +1,6 @@
+docker exec -ti -u fenics fenics /bin/bash -l
+
+docker start fenics
+docker stop fenics
+
+docker ps -a
